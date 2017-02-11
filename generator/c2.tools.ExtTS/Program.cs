@@ -26,7 +26,8 @@ namespace c2.tools.ExtTS
                     Console.WriteLine($@"[{i + 1}/{libs.Length}. {libs[i]}] {ex.ToString().Replace(Environment.NewLine, "|")}");
                 }
                 Console.WriteLine();
-                Console.WriteLine();
+                Console.WriteLine("Generation completed. Press any key to close.");
+                Console.ReadLine();
             }
         }
 
